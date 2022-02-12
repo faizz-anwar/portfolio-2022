@@ -1,0 +1,49 @@
+html {
+    background-color: #fafafa;
+}
+
+.hero {
+    background: conic-gradient(from 102.6deg at 58.78% 42.31%, #BDCAF9 0deg, #F7F1F6 121.87deg, #E8F9FE 360deg);
+}
+.white {
+    background: #FFF;
+}
+
+.hero-heading {
+    color: #0F172A;
+}
+.hero-paragraph {
+    color: #022D6D;
+    opacity: 60%;
+}
+.tirtiary-heading {
+    color: #0F172A;
+}
+.tirtiary-paragraph {
+    color: #11026D;
+    opacity: 50%;
+}
+
+.hero-primary-button {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    border-radius: 9999px;
+}
+.read-my-button {
+    color: #334155;
+}
+.code-1 {
+    border-bottom: 1px dashed #475569;
+}
+.code-2 {
+    border-top: 1px dashed #94A3B8;
+}
+
+.highlited-word {
+    -webkit-text-stroke: 1.2px #1E293B;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    background: conic-gradient(from 131.7deg at 69.72% 43.72%, #1E293B 0deg, #475569 126.16deg, #64748B 360deg);
+}

@@ -1,0 +1,40 @@
+html {
+    background-color: #fafafa;
+}
+
+.hero {
+    background: conic-gradient(from 220.7deg at 86.9% 30.03%, #FDF6F0 0deg, #FCD8D4 80.62deg, #F8E2CF 296.25deg, #F5C6AA 360deg);
+}
+.white {
+    background: #FFF;
+}
+
+.hero-heading {
+    color: #2A0F0F;
+}
+.hero-paragraph {
+    color: #2A0F0F;
+    opacity: 60%;
+}
+
+.hero-primary-button {
+    background-color: #2A0F0F;
+    color: #F8FAFC;
+    border-radius: 9999px;
+}
+
+.heading-footer {
+    color: #590D24;
+}
+.paragraph-footer {
+    color: #590D24;
+    opacity: 60%;
+}
+
+.code-2 {
+    border-top: 1px dashed #590D24;
+}
+
+footer {
+    background: conic-gradient(from 131.7deg at 69.72% 43.72%, #F9A9B8 0deg, #FAE8F1 121.87deg, #FED5D5 360deg);
+}

@@ -1,0 +1,44 @@
+.nav-outline {
+    outline: #CBD5E1;
+    border-radius: 12px;
+}
+
+.blog-number {
+    color: #334155;
+}
+
+.blog-heading {
+    background: linear-gradient(91.62deg, #0765FF 0%, #FF003D 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.border-color {
+    border-right-color: #CBD5E1;
+}
+
+.thumbnail-text {
+    color: #64748B;
+}
+
+.button-nav {
+    color: #1E293B;
+    border: 1px solid #CBD5E1;
+    border-radius: 9999px;
+}
+:hover.button-nav {
+    background-color: #F1F5F9;
+}
+
+.thanks-text {
+    color: #94A3B8;
+}
+
+.code-3 {
+    border-top: 1px dashed #475569;
+}
+
+.copyright-text {
+    color: #94A3B8;
+}

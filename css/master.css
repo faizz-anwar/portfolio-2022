@@ -1,0 +1,57 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+.heading {
+    color: #0F172A;
+}
+.heading-white {
+    color: #F8FAFC;
+}
+.dark-heading {
+    color: #1E293B;
+}
+.paragraph {
+    color: #64748B;
+}
+.paragraph-white {
+    color: #CBD5E1;
+}
+.dark-paragraph {
+    color: #475569;
+}
+.dark-button {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    border-radius: 9999px;
+}
+.button-stroked {
+    color: #1E293B;
+    border: 1.2px solid #1E293B;
+    border-radius: 9999px;
+}
+:hover.button-stroked {
+    background-color: #F1F5F9;
+}
+.button-stroked-white {
+    color: #F8FAFC;
+    border: 1.2px solid #F8FAFC;
+    border-radius: 9999px;
+}
+:hover.button-stroked-white {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button-secondary {
+    color: #1E293B;
+    background-color: #F1F5F9;
+    border-radius: 9999px;
+}
+
+:hover.button-secondary {
+    background-color: #E2E8F0;
+}

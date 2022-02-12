@@ -1,0 +1,32 @@
+html {
+    background-color: #fafafa;
+}
+
+.hero {
+    background: conic-gradient(from 180deg at 78.27% 41.87%, #B9FFFC 0deg, #B8E4FC 110.62deg, #9AB3F5 296.25deg, #7579E7 360deg);
+}
+.white {
+    background: #FFF;
+}
+
+.hero-heading {
+    color: #0F1A2A;
+}
+.hero-paragraph {
+    color: #0F1A2A;
+    opacity: 60%;
+}
+
+.hero-primary-button {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    border-radius: 9999px;
+}
+
+.code-2 {
+    border-top: 1px dashed #94A3B8;
+}
+
+footer {
+    background: conic-gradient(from 131.7deg at 69.72% 43.72%, #1E293B 0deg, #475569 126.16deg, #64748B 360deg);
+}

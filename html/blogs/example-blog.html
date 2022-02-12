@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog no.1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image" href="./../../assets/local/favicon.png">
+    <link rel="stylesheet" href="./../../css/master.css">
+    <link rel="stylesheet" href="./../../css/blog-view.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container mx-auto xl:block hidden xl:px-14 2xl:px-0 mb-14">
+            <div class="flex justify-between outline outline-1 nav-outline px-14 py-5 mt-10">
+                <div>
+                    <a href="./../../index.html">
+                        <svg width="122" height="19" viewBox="0 0 122 19" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.632 18V1.2H11.48V3.672H3.704V8.376H9.992V10.8H3.704V18H0.632ZM16.8749 18.288C15.8509 18.288 15.0109 18.128 14.3549 17.808C13.6989 17.472 13.2109 17.032 12.8909 16.488C12.5709 15.944 12.4109 15.344 12.4109 14.688C12.4109 13.584 12.8429 12.688 13.7069 12C14.5709 11.312 15.8669 10.968 17.5949 10.968H20.6189V10.68C20.6189 9.864 20.3869 9.264 19.9229 8.88C19.4589 8.496 18.8829 8.304 18.1949 8.304C17.5709 8.304 17.0269 8.456 16.5629 8.76C16.0989 9.048 15.8109 9.48 15.6989 10.056H12.6989C12.7789 9.192 13.0669 8.44 13.5629 7.8C14.0749 7.16 14.7309 6.672 15.5309 6.336C16.3309 5.984 17.2269 5.808 18.2189 5.808C19.9149 5.808 21.2509 6.232 22.2269 7.08C23.2029 7.928 23.6909 9.128 23.6909 10.68V18H21.0749L20.7869 16.08C20.4349 16.72 19.9389 17.248 19.2989 17.664C18.6749 18.08 17.8669 18.288 16.8749 18.288ZM17.5709 15.888C18.4509 15.888 19.1309 15.6 19.6109 15.024C20.1069 14.448 20.4189 13.736 20.5469 12.888H17.9309C17.1149 12.888 16.5309 13.04 16.1789 13.344C15.8269 13.632 15.6509 13.992 15.6509 14.424C15.6509 14.888 15.8269 15.248 16.1789 15.504C16.5309 15.76 16.9949 15.888 17.5709 15.888ZM28.2785 4.248C27.7185 4.248 27.2545 4.08 26.8865 3.744C26.5345 3.408 26.3585 2.984 26.3585 2.472C26.3585 1.96 26.5345 1.544 26.8865 1.224C27.2545 0.887999 27.7185 0.719999 28.2785 0.719999C28.8385 0.719999 29.2945 0.887999 29.6465 1.224C30.0145 1.544 30.1985 1.96 30.1985 2.472C30.1985 2.984 30.0145 3.408 29.6465 3.744C29.2945 4.08 28.8385 4.248 28.2785 4.248ZM26.7425 18V6.096H29.8145V18H26.7425ZM32.2529 18V15.528L38.3249 8.64H32.3249V6.096H41.8289V8.568L35.6609 15.456H41.9489V18H32.2529ZM49.2161 18L55.3601 1.2H58.8161L64.9601 18H61.6961L60.3521 14.112H53.8001L52.4321 18H49.2161ZM54.6401 11.712H59.5121L57.0641 4.728L54.6401 11.712ZM67.0522 18V6.096H69.7642L70.0042 8.112C70.3722 7.408 70.9002 6.848 71.5882 6.432C72.2922 6.016 73.1162 5.808 74.0602 5.808C75.5322 5.808 76.6762 6.272 77.4922 7.2C78.3082 8.128 78.7162 9.488 78.7162 11.28V18H75.6442V11.568C75.6442 10.544 75.4362 9.76 75.0202 9.216C74.6042 8.672 73.9562 8.4 73.0762 8.4C72.2122 8.4 71.5002 8.704 70.9402 9.312C70.3962 9.92 70.1242 10.768 70.1242 11.856V18H67.0522ZM83.9818 18L80.5018 6.096H83.5498L85.6138 14.664L88.0138 6.096H91.4218L93.8218 14.664L95.9098 6.096H98.9578L95.4538 18H92.2618L89.7178 9.096L87.1738 18H83.9818ZM104.391 18.288C103.367 18.288 102.527 18.128 101.871 17.808C101.215 17.472 100.727 17.032 100.407 16.488C100.087 15.944 99.9266 15.344 99.9266 14.688C99.9266 13.584 100.359 12.688 101.223 12C102.087 11.312 103.383 10.968 105.111 10.968H108.135V10.68C108.135 9.864 107.903 9.264 107.439 8.88C106.975 8.496 106.399 8.304 105.711 8.304C105.087 8.304 104.543 8.456 104.079 8.76C103.615 9.048 103.327 9.48 103.215 10.056H100.215C100.295 9.192 100.583 8.44 101.079 7.8C101.591 7.16 102.247 6.672 103.047 6.336C103.847 5.984 104.743 5.808 105.735 5.808C107.431 5.808 108.767 6.232 109.743 7.08C110.719 7.928 111.207 9.128 111.207 10.68V18H108.591L108.303 16.08C107.951 16.72 107.455 17.248 106.815 17.664C106.191 18.08 105.383 18.288 104.391 18.288ZM105.087 15.888C105.967 15.888 106.647 15.6 107.127 15.024C107.623 14.448 107.935 13.736 108.063 12.888H105.447C104.631 12.888 104.047 13.04 103.695 13.344C103.343 13.632 103.167 13.992 103.167 14.424C103.167 14.888 103.343 15.248 103.695 15.504C104.047 15.76 104.511 15.888 105.087 15.888ZM114.138 18V6.096H116.874L117.162 8.328C117.594 7.56 118.178 6.952 118.914 6.504C119.666 6.04 120.546 5.808 121.554 5.808V9.048H120.69C120.018 9.048 119.418 9.152 118.89 9.36C118.362 9.568 117.946 9.928 117.642 10.44C117.354 10.952 117.21 11.664 117.21 12.576V18H114.138Z"
+                                fill="#1E293B" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="transition ease-in-out delay-150 hover:-translate-y-1 duration-300 hover:scale-110">
+                    <a href="mailto:faizz_anwar@hotmail.com">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.9026 8.85107L13.4593 12.4641C12.6198 13.1301 11.4387 13.1301 10.5992 12.4641L6.11841 8.85107"
+                                stroke="#1E293B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.9089 21C19.9502 21.0084 22 18.5095 22 15.4384V8.57001C22 5.49883 19.9502 3 16.9089 3H7.09114C4.04979 3 2 5.49883 2 8.57001V15.4384C2 18.5095 4.04979 21.0084 7.09114 21H16.9089Z"
+                                stroke="#1E293B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container mx-auto xl:block hidden 2xl:px-36 xl:px-14 2xl:mb-20 xl:mb-16">
+        <div class="text-center 2xl:mb-16 xl:mb-10">
+            <div class="mb-3.5">
+                <h6 class="text-lg font-bold uppercase blog-number">
+                    blog &#35 01
+                </h6>
+            </div>
+            <div class="2xl:mb-8 xl:mb-4">
+                <h1
+                    class="2xl:text-8xl xl:text-7xl font-bold capitalize blog-heading xl:leading-tight 2xl:leading-tight">
+                    this is the blog no 01 now it looks good aah
+                </h1>
+            </div>
+            <div class="flex items-center justify-center">
+                <div class="flex items-center border-r-2 border-color pr-8 mr-8">
+                    <div class="mr-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3 6.5C3 3.87479 3.02811 3 6.5 3C9.97189 3 10 3.87479 10 6.5C10 9.12521 10.0111 10 6.5 10C2.98893 10 3 9.12521 3 6.5Z"
+                                stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14 6.5C14 3.87479 14.0281 3 17.5 3C20.9719 3 21 3.87479 21 6.5C21 9.12521 21.0111 10 17.5 10C13.9889 10 14 9.12521 14 6.5Z"
+                                stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3 17.5C3 14.8748 3.02811 14 6.5 14C9.97189 14 10 14.8748 10 17.5C10 20.1252 10.0111 21 6.5 21C2.98893 21 3 20.1252 3 17.5Z"
+                                stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14 17.5C14 14.8748 14.0281 14 17.5 14C20.9719 14 21 14.8748 21 17.5C21 20.1252 21.0111 21 17.5 21C13.9889 21 14 20.1252 14 17.5Z"
+                                stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-lg thumbnail-text">
+                            Typographic
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div class="mr-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.09253 9.40445H20.9165" stroke="#94A3B8" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16.442 13.3097H16.4512" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12.0047 13.3097H12.014" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7.55793 13.3097H7.5672" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M16.442 17.1964H16.4512" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12.0047 17.1964H12.014" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7.55793 17.1964H7.5672" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M16.0438 2V5.29078" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7.9654 2V5.29078" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.2383 3.5791H7.77096C4.83427 3.5791 3 5.21504 3 8.22213V17.2718C3 20.3261 4.83427 21.9999 7.77096 21.9999H16.229C19.175 21.9999 21 20.3545 21 17.3474V8.22213C21.0092 5.21504 19.1842 3.5791 16.2383 3.5791Z"
+                                stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-lg thumbnail-text">
+                            30-01-2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="./../../assets/blogs/blog-1/main-image.png" alt="sample">
+        </div>
+    </section>
+    <section class="container mx-auto xl:block hidden 2xl:px-96 xl:px-72 2xl:mb-20 xl:mb-16">
+        <div class="mb-8">
+            <p class="text-xl dark-paragraph leading-8">
+                Valuing the social, environmental, and economic impact of your business is what makes you visionary. We
+                want
+                to help you in the mission of spreading that sustainability mindset.
+            </p>
+        </div>
+        <div class="mb-12">
+            <p class="text-xl dark-paragraph leading-8">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                Lorem
+                Ipsum passage, and going through the cites of the word in classical literature, discovered the
+                undoubtable
+                source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                Extremes
+                of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+                popular
+                during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor 90 amet..", comes from a line
+                in
+                section 1.10.32.
+            </p>
+        </div>
+        <div class="mb-12">
+            <img src="./../../assets/blogs/blog-1/content-image.png" alt="sample">
+        </div>
+        <div class="mb-4">
+            <h3 class="text-2xl font-bold dark-heading">
+                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia
+            </h3>
+        </div>
+        <div class="mb-12">
+            <p class="text-xl dark-paragraph leading-8">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                Lorem
+                Ipsum passage, and going through the cites of the word in classical literature, discovered the
+                undoubtable
+                source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                Extremes
+                of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+                popular
+                during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor 90 amet..", comes from a line
+                in
+                section 1.10.32.
+            </p>
+        </div>
+        <div class="mb-5">
+            <h3 class="text-2xl font-bold dark-heading">
+                Lorem Ipsum,
+            </h3>
+        </div>
+        <div>
+            <div class="flex items-center mb-2">
+                <div class="mr-4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 21.25C17.108 21.25 21.25 17.109 21.25 12C21.25 6.892 17.108 2.75 12 2.75C6.892 2.75 2.75 6.892 2.75 12C2.75 17.109 6.892 21.25 12 21.25Z"
+                            stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M10.5576 15.4712L14.0436 12.0002L10.5576 8.52919" stroke="#94A3B8" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="text-xl dark-paragraph leading-8">
+                        Contrary to popular belief
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center mb-2">
+                <div class="mr-4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 21.25C17.108 21.25 21.25 17.109 21.25 12C21.25 6.892 17.108 2.75 12 2.75C6.892 2.75 2.75 6.892 2.75 12C2.75 17.109 6.892 21.25 12 21.25Z"
+                            stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M10.5576 15.4712L14.0436 12.0002L10.5576 8.52919" stroke="#94A3B8" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="text-xl dark-paragraph leading-8">
+                        Contrary to popular belief
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center mb-2">
+                <div class="mr-4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 21.25C17.108 21.25 21.25 17.109 21.25 12C21.25 6.892 17.108 2.75 12 2.75C6.892 2.75 2.75 6.892 2.75 12C2.75 17.109 6.892 21.25 12 21.25Z"
+                            stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M10.5576 15.4712L14.0436 12.0002L10.5576 8.52919" stroke="#94A3B8" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="text-xl dark-paragraph leading-8">
+                        Contrary to popular belief
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center mb-8">
+                <div class="mr-4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 21.25C17.108 21.25 21.25 17.109 21.25 12C21.25 6.892 17.108 2.75 12 2.75C6.892 2.75 2.75 6.892 2.75 12C2.75 17.109 6.892 21.25 12 21.25Z"
+                            stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M10.5576 15.4712L14.0436 12.0002L10.5576 8.52919" stroke="#94A3B8" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="text-xl dark-paragraph leading-8">
+                        Contrary to popular belief
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mb-8">
+            <p class="text-xl dark-paragraph leading-8">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                Lorem
+                Ipsum passage, and going through the cites of the word in classical literature, discovered the
+                undoubtable
+                source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                Extremes
+                of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+                popular
+                during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor 90 amet..", comes from a line
+                in
+                section 1.10.32.
+            </p>
+        </div>
+        <div class="">
+            <p class="text-xl dark-paragraph leading-8">
+                Download your file
+                <span class="font-bold dark-heading underline">
+                    Here
+                </span>
+            </p>
+        </div>
+    </section>
+    <section class="container mx-auto xl:block hidden xl:px-14 2xl:px-0 2xl:mb-20 xl:mb-16">
+        <div class="flex items-center justify-between code-3 pt-10">
+            <div>
+                <button
+                    class="flex button-nav 2xl:text-lg font-medium items-center 2xl:px-20 xl:px-16 2xl:py-4 xl:py-3">
+                    <span class="mr-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.75 7.666L2.75 16.335C2.75 19.355 4.889 21.25 7.916 21.25L16.084 21.25C19.111 21.25 21.25 19.365 21.25 16.335L21.25 7.666C21.25 4.636 19.111 2.75 16.084 2.75L7.916 2.75C4.889 2.75 2.75 4.636 2.75 7.666Z"
+                                stroke="#475569" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M7.91406 12L16.0861 12" stroke="#475569" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M11.6777 15.748L7.91373 12L11.6777 8.25195" stroke="#475569" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    Previous
+                </button>
+            </div>
+            <div>
+                <p class="text-lg thanks-text">
+                    Thanks for Read!
+                </p>
+            </div>
+            <div>
+                <button
+                    class="flex flex-row flex-row-reverse button-nav 2xl:text-lg font-medium items-center 2xl:px-20 xl:px-16 2xl:py-4 xl:py-3">
+                    <span class="ml-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M21.25 16.334V7.665C21.25 4.645 19.111 2.75 16.084 2.75H7.916C4.889 2.75 2.75 4.635 2.75 7.665L2.75 16.334C2.75 19.364 4.889 21.25 7.916 21.25H16.084C19.111 21.25 21.25 19.364 21.25 16.334Z"
+                                stroke="#475569" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16.0861 12H7.91406" stroke="#475569" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12.3223 8.25205L16.0863 12L12.3223 15.748" stroke="#475569" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    Next
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container mx-auto xl:block hidden xl:px-14 2xl:px-0 mb-10">
+            <div class="flex justify-between outline outline-1 nav-outline px-14 py-5 mt-10">
+                <div>
+                    <p class="copyright-text">
+                        &#169 Faiz Anwar portfolio 2022
+                    </p>
+                </div>
+                <div class="flex">
+                    <div class="mr-4">
+                        <a href="#">
+                            <svg class="hover:stroke-cyan-500" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M8.56 2.75C12.93 8.78 14.58 12.17 16.59 20.47M19.13 5.09C15.41 9.44 10.19 10.75 2.25 10.94M21.75 12.84C18.25 11.91 15.12 12.02 12.81 12.84C10.23 13.76 7.8 15.7 5.37 19.16"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="mr-4">
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M16 11.3698C16.1234 12.2021 15.9812 13.052 15.5937 13.7988C15.2062 14.5456 14.5931 15.1512 13.8416 15.5295C13.0901 15.9077 12.2384 16.0394 11.4077 15.9057C10.5771 15.7721 9.80971 15.3799 9.21479 14.785C8.61987 14.1901 8.22768 13.4227 8.09402 12.592C7.96035 11.7614 8.09202 10.9097 8.47028 10.1582C8.84854 9.40667 9.45414 8.79355 10.2009 8.40605C10.9477 8.01856 11.7977 7.8764 12.63 7.99981C13.4789 8.1257 14.2648 8.52128 14.8716 9.12812C15.4785 9.73496 15.8741 10.5209 16 11.3698Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M17.5 6.5H17.51" stroke="#64748B" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5 5.5C5 4.57174 5.36875 3.6815 6.02513 3.02513C6.6815 2.36875 7.57174 2 8.5 2H12V9H8.5C7.57174 9 6.6815 8.63125 6.02513 7.97487C5.36875 7.3185 5 6.42826 5 5.5Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M12 2H15.5C15.9596 2 16.4148 2.09053 16.8394 2.26642C17.264 2.44231 17.6499 2.70012 17.9749 3.02513C18.2999 3.35013 18.5577 3.73597 18.7336 4.16061C18.9095 4.58525 19 5.04037 19 5.5C19 5.95963 18.9095 6.41475 18.7336 6.83939C18.5577 7.26403 18.2999 7.64987 17.9749 7.97487C17.6499 8.29988 17.264 8.55769 16.8394 8.73358C16.4148 8.90947 15.9596 9 15.5 9H12V2Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M12 12.5C12 12.0404 12.0905 11.5852 12.2664 11.1606C12.4423 10.736 12.7001 10.3501 13.0251 10.0251C13.3501 9.70012 13.736 9.44231 14.1606 9.26642C14.5852 9.09053 15.0404 9 15.5 9C15.9596 9 16.4148 9.09053 16.8394 9.26642C17.264 9.44231 17.6499 9.70012 17.9749 10.0251C18.2999 10.3501 18.5577 10.736 18.7336 11.1606C18.9095 11.5852 19 12.0404 19 12.5C19 12.9596 18.9095 13.4148 18.7336 13.8394C18.5577 14.264 18.2999 14.6499 17.9749 14.9749C17.6499 15.2999 17.264 15.5577 16.8394 15.7336C16.4148 15.9095 15.9596 16 15.5 16C15.0404 16 14.5852 15.9095 14.1606 15.7336C13.736 15.5577 13.3501 15.2999 13.0251 14.9749C12.7001 14.6499 12.4423 14.264 12.2664 13.8394C12.0905 13.4148 12 12.9596 12 12.5V12.5Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M5 19.5C5 18.5717 5.36875 17.6815 6.02513 17.0251C6.6815 16.3687 7.57174 16 8.5 16H12V19.5C12 20.4283 11.6313 21.3185 10.9749 21.9749C10.3185 22.6313 9.42826 23 8.5 23C7.57174 23 6.6815 22.6313 6.02513 21.9749C5.36875 21.3185 5 20.4283 5 19.5Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M5 12.5C5 11.5717 5.36875 10.6815 6.02513 10.0251C6.6815 9.36875 7.57174 9 8.5 9H12V16H8.5C7.57174 16 6.6815 15.6313 6.02513 14.9749C5.36875 14.3185 5 13.4283 5 12.5Z"
+                                    stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--  -->
+    <section class="block xl:hidden max-h-screen px-4 sm:px-8 md:px-10 pt-4 sm:pt-6 md:pt-10">
+        <div class="w-full" style="background-color: #DCFBFE; border-radius: 12px;">
+            <div class="flex px-5 md:px-10 py-5">
+                <div class="mr-3">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 18L20 17V14.5M14 10L12 11L14 10ZM12 11L10 10L12 11ZM12 11V13.5V11ZM20 7L18 8L20 7ZM20 7L18 6L20 7ZM20 7V9.5V7ZM14 4L12 3L10 4H14ZM4 7L6 6L4 7ZM4 7L6 8L4 7ZM4 7V9.5V7ZM12 21L10 20L12 21ZM12 21L14 20L12 21ZM12 21V18.5V21ZM6 18L4 17V14.5L6 18Z"
+                            stroke="#0E7490" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="" style="color: #155E75;">
+                        This site is only optimized for larger screens. To get full access you have to see it on laptop
+                        or desktop. Thanks!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sm:mx-8 lg:mx-56 md:mx-24">
+            <div class="flex flex-col mt-8 md:mt-16">
+                <div class="h-32 md:h-40 w-32 md:w-40 mb-6">
+                    <img src="./../../assets/local/Profile-Coloured.png" alt="Me">
+                </div>
+                <div>
+                    <div class="mb-2 md:mb-3">
+                        <h3 class="text-3xl md:text-4xl font-bold heading">
+                            Hey! I'm Faiz Anwar
+                        </h3>
+                    </div>
+                    <div class="mb-2 md:mb-3">
+                        <p class="md:text-xl" style="color: #0891B2;">
+                            UI Designer
+                        </p>
+                    </div>
+                    <div class="mb-7">
+                        <p class="md:text-xl dark-paragraph leading-relaxed md:leading-normal">
+                            Live in India. Work for clients who wants clean & minimal interfaces for their digital
+                            products all around the world. Worked on 9 International Projects includes Middle East,
+                            Western Europe, Eastern Europe & North American regions.
+                        </p>
+                    </div>
+                    <div class="mb-10">
+                        <a href="https://drive.google.com/file/d/1GX4s2hu9X0MtbF2jw9kv0WTZ1uuRoydv/view?usp=sharing"
+                            target="_blank">
+                            <button class="font-medium dark-button px-16 py-4">
+                                Download Resume
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-4">
+                <div>
+                    <div class="justify-end">
+                        <p style="color: #64748B;">
+                            &#169 Faiz Anwar Portfolio 2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

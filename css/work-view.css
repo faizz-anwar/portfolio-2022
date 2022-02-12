@@ -1,0 +1,39 @@
+
+.nav-outline {
+    outline: #CBD5E1;
+    border-radius: 12px;
+}
+
+.thumbnail-text {
+    color: #64748B;
+}
+
+.code-1 {
+    border-bottom: 1px dashed #94A3B8;
+}
+
+.collab-div {
+    background: conic-gradient(from 131.7deg at 69.72% 43.72%, #E2E8F0 0deg, #F8FAFC 131.25deg, #F1F5F9 360deg);
+}
+
+.button-nav {
+    color: #1E293B;
+    border: 1px solid #CBD5E1;
+    border-radius: 9999px;
+}
+
+:hover.button-nav {
+    background-color: #F1F5F9;
+}
+
+.thanks-text {
+    color: #94A3B8;
+}
+
+.code-3 {
+    border-top: 1px dashed #475569;
+}
+
+.copyright-text {
+    color: #94A3B8;
+}
