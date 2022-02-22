@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Panel UI/UX Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image" href="./../../assets/local/favicon.png">
+    <link rel="stylesheet" href="./../../css/master-darkmode.css">
+    <link rel="stylesheet" href="./../../css/work-view.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container mx-auto xl:block hidden xl:px-14 2xl:px-0 mb-16">
+            <div class="flex justify-between outline outline-1 nav-outline-dark px-14 py-5 mt-10">
+                <div>
+                    <a href="./../../index.html">
+                        <svg width="122" height="19" viewBox="0 0 122 19" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.632 18V1.2H11.48V3.672H3.704V8.376H9.992V10.8H3.704V18H0.632ZM16.8749 18.288C15.8509 18.288 15.0109 18.128 14.3549 17.808C13.6989 17.472 13.2109 17.032 12.8909 16.488C12.5709 15.944 12.4109 15.344 12.4109 14.688C12.4109 13.584 12.8429 12.688 13.7069 12C14.5709 11.312 15.8669 10.968 17.5949 10.968H20.6189V10.68C20.6189 9.864 20.3869 9.264 19.9229 8.88C19.4589 8.496 18.8829 8.304 18.1949 8.304C17.5709 8.304 17.0269 8.456 16.5629 8.76C16.0989 9.048 15.8109 9.48 15.6989 10.056H12.6989C12.7789 9.192 13.0669 8.44 13.5629 7.8C14.0749 7.16 14.7309 6.672 15.5309 6.336C16.3309 5.984 17.2269 5.808 18.2189 5.808C19.9149 5.808 21.2509 6.232 22.2269 7.08C23.2029 7.928 23.6909 9.128 23.6909 10.68V18H21.0749L20.7869 16.08C20.4349 16.72 19.9389 17.248 19.2989 17.664C18.6749 18.08 17.8669 18.288 16.8749 18.288ZM17.5709 15.888C18.4509 15.888 19.1309 15.6 19.6109 15.024C20.1069 14.448 20.4189 13.736 20.5469 12.888H17.9309C17.1149 12.888 16.5309 13.04 16.1789 13.344C15.8269 13.632 15.6509 13.992 15.6509 14.424C15.6509 14.888 15.8269 15.248 16.1789 15.504C16.5309 15.76 16.9949 15.888 17.5709 15.888ZM28.2785 4.248C27.7185 4.248 27.2545 4.08 26.8865 3.744C26.5345 3.408 26.3585 2.984 26.3585 2.472C26.3585 1.96 26.5345 1.544 26.8865 1.224C27.2545 0.887999 27.7185 0.719999 28.2785 0.719999C28.8385 0.719999 29.2945 0.887999 29.6465 1.224C30.0145 1.544 30.1985 1.96 30.1985 2.472C30.1985 2.984 30.0145 3.408 29.6465 3.744C29.2945 4.08 28.8385 4.248 28.2785 4.248ZM26.7425 18V6.096H29.8145V18H26.7425ZM32.2529 18V15.528L38.3249 8.64H32.3249V6.096H41.8289V8.568L35.6609 15.456H41.9489V18H32.2529ZM49.2161 18L55.3601 1.2H58.8161L64.9601 18H61.6961L60.3521 14.112H53.8001L52.4321 18H49.2161ZM54.6401 11.712H59.5121L57.0641 4.728L54.6401 11.712ZM67.0522 18V6.096H69.7642L70.0042 8.112C70.3722 7.408 70.9002 6.848 71.5882 6.432C72.2922 6.016 73.1162 5.808 74.0602 5.808C75.5322 5.808 76.6762 6.272 77.4922 7.2C78.3082 8.128 78.7162 9.488 78.7162 11.28V18H75.6442V11.568C75.6442 10.544 75.4362 9.76 75.0202 9.216C74.6042 8.672 73.9562 8.4 73.0762 8.4C72.2122 8.4 71.5002 8.704 70.9402 9.312C70.3962 9.92 70.1242 10.768 70.1242 11.856V18H67.0522ZM83.9818 18L80.5018 6.096H83.5498L85.6138 14.664L88.0138 6.096H91.4218L93.8218 14.664L95.9098 6.096H98.9578L95.4538 18H92.2618L89.7178 9.096L87.1738 18H83.9818ZM104.391 18.288C103.367 18.288 102.527 18.128 101.871 17.808C101.215 17.472 100.727 17.032 100.407 16.488C100.087 15.944 99.9266 15.344 99.9266 14.688C99.9266 13.584 100.359 12.688 101.223 12C102.087 11.312 103.383 10.968 105.111 10.968H108.135V10.68C108.135 9.864 107.903 9.264 107.439 8.88C106.975 8.496 106.399 8.304 105.711 8.304C105.087 8.304 104.543 8.456 104.079 8.76C103.615 9.048 103.327 9.48 103.215 10.056H100.215C100.295 9.192 100.583 8.44 101.079 7.8C101.591 7.16 102.247 6.672 103.047 6.336C103.847 5.984 104.743 5.808 105.735 5.808C107.431 5.808 108.767 6.232 109.743 7.08C110.719 7.928 111.207 9.128 111.207 10.68V18H108.591L108.303 16.08C107.951 16.72 107.455 17.248 106.815 17.664C106.191 18.08 105.383 18.288 104.391 18.288ZM105.087 15.888C105.967 15.888 106.647 15.6 107.127 15.024C107.623 14.448 107.935 13.736 108.063 12.888H105.447C104.631 12.888 104.047 13.04 103.695 13.344C103.343 13.632 103.167 13.992 103.167 14.424C103.167 14.888 103.343 15.248 103.695 15.504C104.047 15.76 104.511 15.888 105.087 15.888ZM114.138 18V6.096H116.874L117.162 8.328C117.594 7.56 118.178 6.952 118.914 6.504C119.666 6.04 120.546 5.808 121.554 5.808V9.048H120.69C120.018 9.048 119.418 9.152 118.89 9.36C118.362 9.568 117.946 9.928 117.642 10.44C117.354 10.952 117.21 11.664 117.21 12.576V18H114.138Z"
+                                fill="#F4F4F5" />
+                        </svg>
+
+                    </a>
+                </div>
+                <div class="transition ease-in-out delay-150 hover:-translate-y-1 duration-300 hover:scale-110">
+                    <a href="mailto:faizz_anwar@hotmail.com">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.9028 8.85107L13.4596 12.4641C12.6201 13.1301 11.4389 13.1301 10.5994 12.4641L6.11865 8.85107"
+                                stroke="#F4F4F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.9089 21C19.9502 21.0084 22 18.5095 22 15.4384V8.57001C22 5.49883 19.9502 3 16.9089 3H7.09114C4.04979 3 2 5.49883 2 8.57001V15.4384C2 18.5095 4.04979 21.0084 7.09114 21H16.9089Z"
+                                stroke="#F4F4F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container mx-auto xl:block hidden 2xl:px-0 xl:px-14">
+        <div class="text-center code-1-dark pb-16 mb-20">
+            <div class="mb-8">
+                <h1
+                    class="2xl:text-8xl xl:text-7xl font-bold capitalize heading work-heading 2xl:leading-tight xl:leading-tight">
+                    Vendor Panel UI/UX Project
+                </h1>
+            </div>
+            <div class="flex items-center justify-center">
+                <div class="flex items-center border-r-2 border-color-dark pr-8 mr-8">
+                    <div class="mr-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.9951 16.6766V14.1396" stroke="#52525B" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.19 5.33008C19.88 5.33008 21.24 6.70008 21.24 8.39008V11.8301C18.78 13.2701 15.53 14.1401 11.99 14.1401C8.45 14.1401 5.21 13.2701 2.75 11.8301V8.38008C2.75 6.69008 4.12 5.33008 5.81 5.33008H18.19Z"
+                                stroke="#52525B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M15.4951 5.32576V4.95976C15.4951 3.73976 14.5051 2.74976 13.2851 2.74976H10.7051C9.48512 2.74976 8.49512 3.73976 8.49512 4.95976V5.32576"
+                                stroke="#52525B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M2.77441 15.4829L2.96341 17.9919C3.09141 19.6829 4.50041 20.9899 6.19541 20.9899H17.7944C19.4894 20.9899 20.8984 19.6829 21.0264 17.9919L21.2154 15.4829"
+                                stroke="#52525B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-lg thumbnail-text-dark">
+                            UI/UX Design
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center border-r-2 border-color-dark pr-8 mr-8">
+                    <div class="mr-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.5 10.5005C14.5 9.11924 13.3808 8 12.0005 8C10.6192 8 9.5 9.11924 9.5 10.5005C9.5 11.8808 10.6192 13 12.0005 13C13.3808 13 14.5 11.8808 14.5 10.5005Z"
+                                stroke="#52525B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9995 21C10.801 21 4.5 15.8984 4.5 10.5633C4.5 6.38664 7.8571 3 11.9995 3C16.1419 3 19.5 6.38664 19.5 10.5633C19.5 15.8984 13.198 21 11.9995 21Z"
+                                stroke="#52525B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-lg thumbnail-text-dark">
+                            Doha, Qatar
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div class="mr-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.09277 9.40421H20.9167" stroke="#52525B" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16.442 13.3097H16.4512" stroke="#52525B" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12.0045 13.3097H12.0137" stroke="#52525B" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M7.55769 13.3097H7.56695" stroke="#52525B" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16.442 17.1962H16.4512" stroke="#52525B" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12.0045 17.1962H12.0137" stroke="#52525B" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M7.55769 17.1962H7.56695" stroke="#52525B" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16.0438 2V5.29078" stroke="#52525B" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7.96564 2V5.29078" stroke="#52525B" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.2383 3.5791H7.77096C4.83427 3.5791 3 5.21504 3 8.22213V17.2718C3 20.3261 4.83427 21.9999 7.77096 21.9999H16.229C19.175 21.9999 21 20.3545 21 17.3474V8.22213C21.0092 5.21504 19.1842 3.5791 16.2383 3.5791Z"
+                                stroke="#52525B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-lg thumbnail-text-dark">
+                            2021
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-28">
+            <div class="mx-20">
+                <div class="flex justify-center">
+                    <img src="./../../assets/projects/project-3/hero-image.png" alt="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto xl:block hidden">
+        <div class="flex justify between px-20 mb-28">
+            <div class="2xl:w-2/4 xl:w-1/3">
+                <h3 class="2xl:text-6xl heading xl:text-5xl font-bold">
+                    About
+                </h3>
+            </div>
+            <div class="2xl:w-2/4 xl:w-2/3">
+                <div class="mb-6">
+                    <p class="text-xl paragraph leading-8">
+                        It is a Vendor Panel, also known as (consumer's dashboard). Where consumer can upload his services, products & staff. Track orders, manage subscriptions, write articles, review financial data & can respond to the reviews. <br> <br> Using the panel is just so easy. User just needs to pick an specific plan which suits him best. Submit the proofs about he is an actual consumer. After verified in 24 hours. He is ready to go!
+                    </p>
+                </div>
+                <div class="mb-2">
+                    <p class="text-xl paragraph font-bold">
+                        Features
+                    </p>
+                </div>
+                <div>
+                    <ul class="text-xl paragraph list-disc list-inside leading-8">
+                        <li>
+                            Clean dark mode UI
+                        </li>
+                        <li>
+                            Simple and straight forward UX
+                        </li>
+                        <li>
+                            Creative Widgets (Can be drag)
+                        </li>
+                        <li>
+                            Pastel Color Palette
+                        </li>
+                        <li>
+                            Flawless Interactions etc.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="xl:block hidden">
+        <div class="flex justify-center mx-auto mb-10">
+            <img src="./../../assets/projects/project-3/wideview-image.png" alt="wideview-image">
+        </div>
+    </section>
+    <section class="xl:block hidden">
+        <div class="flex justify-center mx-auto mb-28">
+            <img src="./../../assets/projects/project-3/pages-gallery-image.png" alt="gallery-view">
+        </div>
+    </section>
+    <section class="container mx-auto xl:block hidden">
+        <div class="flex justify between px-20 mb-28">
+            <div class="2xl:w-2/4 xl:w-1/3">
+                <h3 class="2xl:text-6xl heading xl:text-5xl font-bold 2xl:leading-tight xl:leading-tight">
+                    Problem <br> Solving
+                </h3>
+            </div>
+            <div class="2xl:w-2/4 xl:w-2/3">
+                <p class="text-xl paragraph leading-8">
+                    The client of this project was looking for the designer who can beat the old style boring dashboard designs (which doesn't looks designed btw). Who comes with something modern and easy to use design because the vendor's have to spend their tons of time. The approach was just to keep their vendor's happy with the end product. And I was so happy to be a chosen designer for them. <br> <br> Now it's my turn to create things best. First I fully understand's the requirements, target audience, goals, site mapping etc by the project manager. Then jumped to the deep research process. After getting a propper understading of how the end product gonna needs to be look. I started making low fidality designs (Wireframes). Granted UX flow permission from the client then created the clean UI of this vendor dashboard. Followed rules of UI designing like spacing, hierarchy, contrast, consistency, accessibility, Interactions etc.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="xl:block hidden">
+        <div class="2xl:px-28 xl:px-14 mb-20">
+            <h2 class="text-5xl text-center heading leading-tight">
+                I let the team to visualize their expectations with that clean & Minimal Interface of the panel.
+            </h2>
+        </div>
+    </section>
+    <section>
+        <div class="xl:block hidden mb-20">
+            <div class="rounded-3xl collab-div-dark 2xl:mx-20 xl:mx-14 2xl:mb-8 xl:mb-5">
+                <div class="text-center mx-auto 2xl:w-1/3 xl:w-2/3 2xl:pt-16 xl:pt-10 2xl:pb-16 xl:pb-10">
+                    <div class="2xl:mb-3 xl:mb-2">
+                        <h2 class="2xl:text-5xl xl:text-3xl heading font-bold">
+                            Wanna Collab Together?
+                        </h2>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-xl paragraph leading-normal">
+                            I can help you to create clean usesr interfaces for your website, web-app or an App, Have an idea?
+                        </p>
+                    </div>
+                    <div>
+                        <a href="mailto:faizz_anwar@hotmail.com">
+                            <button class="text-lg font-medium button-stroked-dark 2xl:px-20 xl:px-16 2xl:py-4 xl:py-3">
+                                Get in Touch
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-base text-center paragraph-moredark 2xl:w-2/4 xl:w-3/4 mx-auto">
+                <p>
+                    Listen! all my projects are real and completed for clients. But in some cases not having permission
+                    to say name of the brand I have to remove logo and add dummy content.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto xl:block hidden xl:px-14 2xl:px-0 2xl:mb-20 xl:mb-16">
+        <div class="flex items-center justify-between code-3-dark pt-10">
+            <div class="invisible">
+                <a href="#">
+                    <button
+                        class="flex button-nav-dark 2xl:text-lg font-medium items-center 2xl:px-20 xl:px-16 2xl:py-4 xl:py-3">
+                        <span class="mr-4">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 7.666L2.75 16.335C2.75 19.355 4.889 21.25 7.916 21.25L16.084 21.25C19.111 21.25 21.25 19.365 21.25 16.335L21.25 7.666C21.25 4.636 19.111 2.75 16.084 2.75L7.916 2.75C4.889 2.75 2.75 4.636 2.75 7.666Z" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.91394 12L16.0859 12" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.6777 15.748L7.91373 12L11.6777 8.25195" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </span>
+                        Previous
+                    </button>
+                </a>
+            </div>
+            <div>
+                <p class="text-lg thanks-text-dark">
+                    Thanks for Read!
+                </p>
+            </div>
+            <div>
+                <a href="./work-2.html">
+                    <button
+                        class="flex flex-row flex-row-reverse button-nav-dark 2xl:text-lg font-medium items-center 2xl:px-20 xl:px-16 2xl:py-4 xl:py-3">
+                        <span class="ml-4">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.25 16.334V7.665C21.25 4.645 19.111 2.75 16.084 2.75H7.916C4.889 2.75 2.75 4.635 2.75 7.665L2.75 16.334C2.75 19.364 4.889 21.25 7.916 21.25H16.084C19.111 21.25 21.25 19.364 21.25 16.334Z" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.0861 12H7.91406" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.3223 8.25205L16.0863 12L12.3223 15.748" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </span>
+                        Next
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container mx-auto xl:block hidden xl:px-14 2xl:px-0  mb-10">
+            <div class="flex justify-between outline outline-1 nav-outline-dark px-14 py-5 mt-10">
+                <div>
+                    <p class="copyright-text-dark">
+                        &#169 Faiz Anwar portfolio 2022
+                    </p>
+                </div>
+                <div class="flex">
+                    <div class="mr-4">
+                        <a href="https://dribbble.com/faizz_anwar">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.56 2.75C12.93 8.78 14.58 12.17 16.59 20.47M19.13 5.09C15.41 9.44 10.19 10.75 2.25 10.94M21.75 12.84C18.25 11.91 15.12 12.02 12.81 12.84C10.23 13.76 7.8 15.7 5.37 19.16" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="mr-4">
+                        <a href="https://www.instagram.com/faizz_anwar/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.9997 11.3703C16.1231 12.2025 15.981 13.0525 15.5935 13.7993C15.206 14.5461 14.5929 15.1517 13.8413 15.53C13.0898 15.9082 12.2382 16.0399 11.4075 15.9062C10.5768 15.7726 9.80947 15.3804 9.21455 14.7855C8.61962 14.1905 8.22744 13.4232 8.09377 12.5925C7.96011 11.7619 8.09177 10.9102 8.47003 10.1587C8.84829 9.40716 9.45389 8.79404 10.2007 8.40654C10.9475 8.01904 11.7975 7.87689 12.6297 8.0003C13.4786 8.12619 14.2646 8.52177 14.8714 9.12861C15.4782 9.73545 15.8738 10.5214 15.9997 11.3703Z" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.5 6.5H17.5092" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.figma.com/@faiz">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 5.5C5 4.57174 5.36875 3.6815 6.02513 3.02513C6.6815 2.36875 7.57174 2 8.5 2H12V9H8.5C7.57174 9 6.6815 8.63125 6.02513 7.97487C5.36875 7.3185 5 6.42826 5 5.5Z" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 2H15.5C15.9596 2 16.4148 2.09053 16.8394 2.26642C17.264 2.44231 17.6499 2.70012 17.9749 3.02513C18.2999 3.35013 18.5577 3.73597 18.7336 4.16061C18.9095 4.58525 19 5.04037 19 5.5C19 5.95963 18.9095 6.41475 18.7336 6.83939C18.5577 7.26403 18.2999 7.64987 17.9749 7.97487C17.6499 8.29988 17.264 8.55769 16.8394 8.73358C16.4148 8.90947 15.9596 9 15.5 9H12V2Z" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12.5C12 12.0404 12.0905 11.5852 12.2664 11.1606C12.4423 10.736 12.7001 10.3501 13.0251 10.0251C13.3501 9.70012 13.736 9.44231 14.1606 9.26642C14.5852 9.09053 15.0404 9 15.5 9C15.9596 9 16.4148 9.09053 16.8394 9.26642C17.264 9.44231 17.6499 9.70012 17.9749 10.0251C18.2999 10.3501 18.5577 10.736 18.7336 11.1606C18.9095 11.5852 19 12.0404 19 12.5C19 12.9596 18.9095 13.4148 18.7336 13.8394C18.5577 14.264 18.2999 14.6499 17.9749 14.9749C17.6499 15.2999 17.264 15.5577 16.8394 15.7336C16.4148 15.9095 15.9596 16 15.5 16C15.0404 16 14.5852 15.9095 14.1606 15.7336C13.736 15.5577 13.3501 15.2999 13.0251 14.9749C12.7001 14.6499 12.4423 14.264 12.2664 13.8394C12.0905 13.4148 12 12.9596 12 12.5V12.5Z" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5 19.5C5 18.5717 5.36875 17.6815 6.02513 17.0251C6.6815 16.3687 7.57174 16 8.5 16H12V19.5C12 20.4283 11.6313 21.3185 10.9749 21.9749C10.3185 22.6313 9.42826 23 8.5 23C7.57174 23 6.6815 22.6313 6.02513 21.9749C5.36875 21.3185 5 20.4283 5 19.5Z" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5 12.5C5 11.5717 5.36875 10.6815 6.02513 10.0251C6.6815 9.36875 7.57174 9 8.5 9H12V16H8.5C7.57174 16 6.6815 15.6313 6.02513 14.9749C5.36875 14.3185 5 13.4283 5 12.5Z" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--  -->
+    <section class="block xl:hidden max-h-screen px-4 sm:px-8 md:px-10 pt-4 sm:pt-6 md:pt-10">
+        <div class="w-full" style="background-color: #002b44; border-radius: 12px;">
+            <div class="flex px-5 md:px-10 py-5">
+                <div class="mr-3">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18 18L20 17V14.5M14 10L12 11L14 10ZM12 11L10 10L12 11ZM12 11V13.5V11ZM20 7L18 8L20 7ZM20 7L18 6L20 7ZM20 7V9.5V7ZM14 4L12 3L10 4H14ZM4 7L6 6L4 7ZM4 7L6 8L4 7ZM4 7V9.5V7ZM12 21L10 20L12 21ZM12 21L14 20L12 21ZM12 21V18.5V21ZM6 18L4 17V14.5L6 18Z"
+                            stroke="#56CAEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="" style="color: #56CAEB;">
+                        This site is only optimized for larger screens. To get full access you have to see it on laptop
+                        or desktop. Thanks!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sm:mx-8 lg:mx-56 md:mx-24">
+            <div class="flex flex-col mt-8 md:mt-16">
+                <div class="h-32 md:h-40 w-32 md:w-40 mb-6">
+                    <img src="./../../assets/local/Profile-Coloured.png" alt="Me">
+                </div>
+                <div>
+                    <div class="mb-2 md:mb-3">
+                        <h3 class="text-3xl md:text-4xl font-bold heading">
+                            Hey! I'm Faiz Anwar
+                        </h3>
+                    </div>
+                    <div class="mb-2 md:mb-3">
+                        <p class="md:text-xl" style="color: #56CAEB;">
+                            UI Designer
+                        </p>
+                    </div>
+                    <div class="mb-7">
+                        <p class="md:text-xl paragraph leading-relaxed md:leading-normal">
+                            Live in India. Work for clients who wants clean & minimal interfaces for their digital
+                            products all around the world. Worked on 9 International Projects includes Middle East,
+                            Western Europe, Eastern Europe & North American regions.
+                        </p>
+                    </div>
+                    <div class="mb-10">
+                        <a href="https://drive.google.com/file/d/1GX4s2hu9X0MtbF2jw9kv0WTZ1uuRoydv/view?usp=sharing"
+                            target="_blank">
+                            <button class="font-medium button-stroked-dark px-16 py-4">
+                                Download Resume
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-4">
+                <div>
+                    <div class="justify-end">
+                        <p style="color: #64748B;">
+                            &#169 Faiz Anwar Portfolio 2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

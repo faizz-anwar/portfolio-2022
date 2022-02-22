@@ -1,0 +1,43 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    background-color: #222225;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+.nav-outline-dark {
+    outline: #2F2F33;
+    border-radius: 12px;
+}
+
+.heading {
+    color: #F4F4F5;
+}
+.paragraph {
+    color: #A1A1AA;
+}
+.paragraph-moredark {
+    color: #71717A;
+}
+.button-stroked-dark {
+    color: #E4E4E7;
+    border: 1.2px solid #A1A1AA;
+    border-radius: 9999px;
+}
+:hover.button-stroked-dark {
+    background-color: #3B3B40;
+}
+.button-stroked-white {
+    color: #F8FAFC;
+    border: 1.2px solid #F8FAFC;
+    border-radius: 9999px;
+}
+:hover.button-stroked-white {
+    background-color: rgba(255, 255, 255, 0.1);
+}
